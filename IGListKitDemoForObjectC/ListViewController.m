@@ -1,17 +1,16 @@
 //
-//  ViewController.m
+//  ListViewController.m
 //  IGListKitDemoForObjectC
 //
-//  Created by Soldier on 2017/2/13.
+//  Created by Soldier on 2017/2/14.
 //  Copyright © 2017年 Shaojie Hong. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "ListViewController.h"
 #import "DemoItem.h"
-#import "DemoSectionController.h"
+#import "ListSectionController.h"
 
-
-@interface ViewController () <IGListAdapterDataSource, IGListAdapterDelegate>
+@interface ListViewController ()<IGListAdapterDataSource, IGListAdapterDelegate>
 
 @property (nonatomic, strong) IGListCollectionView *collectionView;
 @property (nonatomic, strong) IGListAdapter *listAdapter;
@@ -24,11 +23,11 @@
 
 
 
-@implementation ViewController
+@implementation ListViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.title = @"IGListKitDemoForObjectC";
+    self.title = @"List";
     
     [self data];
     
@@ -75,7 +74,7 @@
 
 - (IGListSectionController<IGListSectionType> *)listAdapter:(IGListAdapter *)listAdapter sectionControllerForObject:(id)object {
     
-    return [[DemoSectionController alloc] init];
+    return [[ListSectionController alloc] init];
 }
 
 - (UIView *)emptyViewForListAdapter:(IGListAdapter *)listAdapter {
@@ -88,7 +87,6 @@
 }
 
 - (void)listAdapter:(IGListAdapter *)listAdapter didEndDisplayingObject:(id)object atIndex:(NSInteger)index {
-    // Do nothing
 }
 
 @end

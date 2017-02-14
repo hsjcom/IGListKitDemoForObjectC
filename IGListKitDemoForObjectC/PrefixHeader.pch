@@ -1,0 +1,17 @@
+//
+//  PrefixHeader.pch
+//  IGListKitDemoForObjectC
+//
+//  Created by Soldier on 2017/2/13.
+//  Copyright © 2017年 Shaojie Hong. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "Constant.h"
+#import "UIView+Extension.h"
+#import <IGListKit/IGListKit.h>
+#import <Masonry/Masonry.h>
+
+#endif /* PrefixHeader_pch */

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		24F5BB9E90C6879D234275FE /* Pods_IGListKitDemoForObjectCTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0A1670FF3D939EED27F26F2 /* Pods_IGListKitDemoForObjectCTests.framework */; };
+		5F794BA985318DED4B938BF4 /* Pods_IGListKitDemoForObjectC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1830DD209B7B8194B2BFB5CE /* Pods_IGListKitDemoForObjectC.framework */; };
+		8066CCBD853A1CA6634EE5D9 /* Pods_IGListKitDemoForObjectCUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5CEB59D8150D21D0C4AA500 /* Pods_IGListKitDemoForObjectCUITests.framework */; };
 		B253150C1E51AC1E0029B1EE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B253150B1E51AC1E0029B1EE /* main.m */; };
 		B253150F1E51AC1E0029B1EE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B253150E1E51AC1E0029B1EE /* AppDelegate.m */; };
 		B25315121E51AC1E0029B1EE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B25315111E51AC1E0029B1EE /* ViewController.m */; };
@@ -15,6 +18,12 @@
 		B253151A1E51AC1E0029B1EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B25315181E51AC1E0029B1EE /* LaunchScreen.storyboard */; };
 		B25315251E51AC1E0029B1EE /* IGListKitDemoForObjectCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B25315241E51AC1E0029B1EE /* IGListKitDemoForObjectCTests.m */; };
 		B25315301E51AC1E0029B1EE /* IGListKitDemoForObjectCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B253152F1E51AC1E0029B1EE /* IGListKitDemoForObjectCUITests.m */; };
+		B25315431E51B1AB0029B1EE /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = B25315421E51B1AB0029B1EE /* UIView+Extension.m */; };
+		B25315471E51BC020029B1EE /* DemoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B25315461E51BC020029B1EE /* DemoItem.m */; };
+		B253154A1E51C2870029B1EE /* DemoSectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = B25315491E51C2870029B1EE /* DemoSectionController.m */; };
+		B25315511E52A6100029B1EE /* DemoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B25315501E52A6100029B1EE /* DemoCell.m */; };
+		B25315561E52F5C40029B1EE /* ListSectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = B25315551E52F5C40029B1EE /* ListSectionController.m */; };
+		B25315591E52F63E0029B1EE /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B25315581E52F63E0029B1EE /* ListViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +44,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1830DD209B7B8194B2BFB5CE /* Pods_IGListKitDemoForObjectC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IGListKitDemoForObjectC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EABD61D24C1368C030D04F8 /* Pods-IGListKitDemoForObjectC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IGListKitDemoForObjectC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IGListKitDemoForObjectC/Pods-IGListKitDemoForObjectC.debug.xcconfig"; sourceTree = "<group>"; };
+		51AC3DBB604D3B1FE063BEB7 /* Pods-IGListKitDemoForObjectC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IGListKitDemoForObjectC.release.xcconfig"; path = "Pods/Target Support Files/Pods-IGListKitDemoForObjectC/Pods-IGListKitDemoForObjectC.release.xcconfig"; sourceTree = "<group>"; };
+		73D149C71601529C8159B0D5 /* Pods-IGListKitDemoForObjectCTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IGListKitDemoForObjectCTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IGListKitDemoForObjectCTests/Pods-IGListKitDemoForObjectCTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7B1752B78BA9121522BF29E8 /* Pods-IGListKitDemoForObjectCTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IGListKitDemoForObjectCTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-IGListKitDemoForObjectCTests/Pods-IGListKitDemoForObjectCTests.release.xcconfig"; sourceTree = "<group>"; };
+		8D923F0FD0E15D1B26F062A2 /* Pods-IGListKitDemoForObjectCUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IGListKitDemoForObjectCUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-IGListKitDemoForObjectCUITests/Pods-IGListKitDemoForObjectCUITests.release.xcconfig"; sourceTree = "<group>"; };
 		B25315071E51AC1E0029B1EE /* IGListKitDemoForObjectC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IGListKitDemoForObjectC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B253150B1E51AC1E0029B1EE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B253150D1E51AC1E0029B1EE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +66,23 @@
 		B253152B1E51AC1E0029B1EE /* IGListKitDemoForObjectCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IGListKitDemoForObjectCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B253152F1E51AC1E0029B1EE /* IGListKitDemoForObjectCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IGListKitDemoForObjectCUITests.m; sourceTree = "<group>"; };
 		B25315311E51AC1E0029B1EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B253153E1E51AEF00029B1EE /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		B25315401E51B1AB0029B1EE /* Constant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
+		B25315411E51B1AB0029B1EE /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		B25315421E51B1AB0029B1EE /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		B25315451E51BC020029B1EE /* DemoItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoItem.h; sourceTree = "<group>"; };
+		B25315461E51BC020029B1EE /* DemoItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoItem.m; sourceTree = "<group>"; };
+		B25315481E51C2870029B1EE /* DemoSectionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoSectionController.h; sourceTree = "<group>"; };
+		B25315491E51C2870029B1EE /* DemoSectionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoSectionController.m; sourceTree = "<group>"; };
+		B253154F1E52A6100029B1EE /* DemoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoCell.h; sourceTree = "<group>"; };
+		B25315501E52A6100029B1EE /* DemoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoCell.m; sourceTree = "<group>"; };
+		B25315541E52F5C40029B1EE /* ListSectionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListSectionController.h; sourceTree = "<group>"; };
+		B25315551E52F5C40029B1EE /* ListSectionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListSectionController.m; sourceTree = "<group>"; };
+		B25315571E52F63E0029B1EE /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
+		B25315581E52F63E0029B1EE /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
+		BA2F9F9C291DB53DF9B345D3 /* Pods-IGListKitDemoForObjectCUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IGListKitDemoForObjectCUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IGListKitDemoForObjectCUITests/Pods-IGListKitDemoForObjectCUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C5CEB59D8150D21D0C4AA500 /* Pods_IGListKitDemoForObjectCUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IGListKitDemoForObjectCUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0A1670FF3D939EED27F26F2 /* Pods_IGListKitDemoForObjectCTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IGListKitDemoForObjectCTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F794BA985318DED4B938BF4 /* Pods_IGListKitDemoForObjectC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24F5BB9E90C6879D234275FE /* Pods_IGListKitDemoForObjectCTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +106,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8066CCBD853A1CA6634EE5D9 /* Pods_IGListKitDemoForObjectCUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AB1AE84B97D7480C61303D99 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1830DD209B7B8194B2BFB5CE /* Pods_IGListKitDemoForObjectC.framework */,
+				D0A1670FF3D939EED27F26F2 /* Pods_IGListKitDemoForObjectCTests.framework */,
+				C5CEB59D8150D21D0C4AA500 /* Pods_IGListKitDemoForObjectCUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B25314FE1E51AC1E0029B1EE = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +130,8 @@
 				B25315231E51AC1E0029B1EE /* IGListKitDemoForObjectCTests */,
 				B253152E1E51AC1E0029B1EE /* IGListKitDemoForObjectCUITests */,
 				B25315081E51AC1E0029B1EE /* Products */,
+				EC1F0F148EDAD8F658488531 /* Pods */,
+				AB1AE84B97D7480C61303D99 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,15 +148,19 @@
 		B25315091E51AC1E0029B1EE /* IGListKitDemoForObjectC */ = {
 			isa = PBXGroup;
 			children = (
+				B25315531E52F57F0029B1EE /* SectionController */,
+				B25315521E52F55B0029B1EE /* Controller */,
+				B253154B1E52A0FE0029B1EE /* View */,
+				B25315441E51BBD50029B1EE /* Model */,
+				B253153F1E51B1AB0029B1EE /* Common */,
 				B253150D1E51AC1E0029B1EE /* AppDelegate.h */,
 				B253150E1E51AC1E0029B1EE /* AppDelegate.m */,
-				B25315101E51AC1E0029B1EE /* ViewController.h */,
-				B25315111E51AC1E0029B1EE /* ViewController.m */,
 				B25315131E51AC1E0029B1EE /* Main.storyboard */,
 				B25315161E51AC1E0029B1EE /* Assets.xcassets */,
 				B25315181E51AC1E0029B1EE /* LaunchScreen.storyboard */,
 				B253151B1E51AC1E0029B1EE /* Info.plist */,
 				B253150A1E51AC1E0029B1EE /* Supporting Files */,
+				B253153E1E51AEF00029B1EE /* PrefixHeader.pch */,
 			);
 			path = IGListKitDemoForObjectC;
 			sourceTree = "<group>";
@@ -140,6 +191,69 @@
 			path = IGListKitDemoForObjectCUITests;
 			sourceTree = "<group>";
 		};
+		B253153F1E51B1AB0029B1EE /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				B25315401E51B1AB0029B1EE /* Constant.h */,
+				B25315411E51B1AB0029B1EE /* UIView+Extension.h */,
+				B25315421E51B1AB0029B1EE /* UIView+Extension.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		B25315441E51BBD50029B1EE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B25315451E51BC020029B1EE /* DemoItem.h */,
+				B25315461E51BC020029B1EE /* DemoItem.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		B253154B1E52A0FE0029B1EE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B253154F1E52A6100029B1EE /* DemoCell.h */,
+				B25315501E52A6100029B1EE /* DemoCell.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		B25315521E52F55B0029B1EE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B25315101E51AC1E0029B1EE /* ViewController.h */,
+				B25315111E51AC1E0029B1EE /* ViewController.m */,
+				B25315571E52F63E0029B1EE /* ListViewController.h */,
+				B25315581E52F63E0029B1EE /* ListViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		B25315531E52F57F0029B1EE /* SectionController */ = {
+			isa = PBXGroup;
+			children = (
+				B25315481E51C2870029B1EE /* DemoSectionController.h */,
+				B25315491E51C2870029B1EE /* DemoSectionController.m */,
+				B25315541E52F5C40029B1EE /* ListSectionController.h */,
+				B25315551E52F5C40029B1EE /* ListSectionController.m */,
+			);
+			name = SectionController;
+			sourceTree = "<group>";
+		};
+		EC1F0F148EDAD8F658488531 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2EABD61D24C1368C030D04F8 /* Pods-IGListKitDemoForObjectC.debug.xcconfig */,
+				51AC3DBB604D3B1FE063BEB7 /* Pods-IGListKitDemoForObjectC.release.xcconfig */,
+				73D149C71601529C8159B0D5 /* Pods-IGListKitDemoForObjectCTests.debug.xcconfig */,
+				7B1752B78BA9121522BF29E8 /* Pods-IGListKitDemoForObjectCTests.release.xcconfig */,
+				BA2F9F9C291DB53DF9B345D3 /* Pods-IGListKitDemoForObjectCUITests.debug.xcconfig */,
+				8D923F0FD0E15D1B26F062A2 /* Pods-IGListKitDemoForObjectCUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +261,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B25315341E51AC1E0029B1EE /* Build configuration list for PBXNativeTarget "IGListKitDemoForObjectC" */;
 			buildPhases = (
+				CF8B2232FFC8026B3337EFB7 /* [CP] Check Pods Manifest.lock */,
 				B25315031E51AC1E0029B1EE /* Sources */,
 				B25315041E51AC1E0029B1EE /* Frameworks */,
 				B25315051E51AC1E0029B1EE /* Resources */,
+				51DFD4116CDD00D3B6A7CEE1 /* [CP] Embed Pods Frameworks */,
+				EC5D3F1491BC8BFF7175B257 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +281,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B25315371E51AC1E0029B1EE /* Build configuration list for PBXNativeTarget "IGListKitDemoForObjectCTests" */;
 			buildPhases = (
+				920E6D9D278BFF13061A5DD3 /* [CP] Check Pods Manifest.lock */,
 				B253151C1E51AC1E0029B1EE /* Sources */,
 				B253151D1E51AC1E0029B1EE /* Frameworks */,
 				B253151E1E51AC1E0029B1EE /* Resources */,
+				E9F1CF7F48BC87A7F5F7DDF0 /* [CP] Embed Pods Frameworks */,
+				8854DFBD2F84ADB2386ADB80 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +302,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B253153A1E51AC1E0029B1EE /* Build configuration list for PBXNativeTarget "IGListKitDemoForObjectCUITests" */;
 			buildPhases = (
+				C07CD270EB9AE45AA116B6AC /* [CP] Check Pods Manifest.lock */,
 				B25315271E51AC1E0029B1EE /* Sources */,
 				B25315281E51AC1E0029B1EE /* Frameworks */,
 				B25315291E51AC1E0029B1EE /* Resources */,
+				91393DAFE512C72BBF409AB0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -271,14 +393,143 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		51DFD4116CDD00D3B6A7CEE1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IGListKitDemoForObjectC/Pods-IGListKitDemoForObjectC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8854DFBD2F84ADB2386ADB80 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IGListKitDemoForObjectCTests/Pods-IGListKitDemoForObjectCTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91393DAFE512C72BBF409AB0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IGListKitDemoForObjectCUITests/Pods-IGListKitDemoForObjectCUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		920E6D9D278BFF13061A5DD3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C07CD270EB9AE45AA116B6AC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CF8B2232FFC8026B3337EFB7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E9F1CF7F48BC87A7F5F7DDF0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IGListKitDemoForObjectCTests/Pods-IGListKitDemoForObjectCTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC5D3F1491BC8BFF7175B257 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IGListKitDemoForObjectC/Pods-IGListKitDemoForObjectC-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B25315031E51AC1E0029B1EE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				B25315121E51AC1E0029B1EE /* ViewController.m in Sources */,
+				B25315471E51BC020029B1EE /* DemoItem.m in Sources */,
+				B25315591E52F63E0029B1EE /* ListViewController.m in Sources */,
 				B253150F1E51AC1E0029B1EE /* AppDelegate.m in Sources */,
+				B25315511E52A6100029B1EE /* DemoCell.m in Sources */,
+				B25315431E51B1AB0029B1EE /* UIView+Extension.m in Sources */,
+				B253154A1E51C2870029B1EE /* DemoSectionController.m in Sources */,
 				B253150C1E51AC1E0029B1EE /* main.m in Sources */,
+				B25315561E52F5C40029B1EE /* ListSectionController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,9 +676,12 @@
 		};
 		B25315351E51AC1E0029B1EE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EABD61D24C1368C030D04F8 /* Pods-IGListKitDemoForObjectC.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 99B27783N7;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = IGListKitDemoForObjectC/PrefixHeader.pch;
 				INFOPLIST_FILE = IGListKitDemoForObjectC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Soldier.IGListKitDemoForObjectC;
@@ -437,9 +691,12 @@
 		};
 		B25315361E51AC1E0029B1EE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51AC3DBB604D3B1FE063BEB7 /* Pods-IGListKitDemoForObjectC.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 99B27783N7;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = IGListKitDemoForObjectC/PrefixHeader.pch;
 				INFOPLIST_FILE = IGListKitDemoForObjectC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Soldier.IGListKitDemoForObjectC;
@@ -449,6 +706,7 @@
 		};
 		B25315381E51AC1E0029B1EE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73D149C71601529C8159B0D5 /* Pods-IGListKitDemoForObjectCTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 99B27783N7;
@@ -462,6 +720,7 @@
 		};
 		B25315391E51AC1E0029B1EE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B1752B78BA9121522BF29E8 /* Pods-IGListKitDemoForObjectCTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 99B27783N7;
@@ -475,6 +734,7 @@
 		};
 		B253153B1E51AC1E0029B1EE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA2F9F9C291DB53DF9B345D3 /* Pods-IGListKitDemoForObjectCUITests.debug.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = 99B27783N7;
 				INFOPLIST_FILE = IGListKitDemoForObjectCUITests/Info.plist;
@@ -487,6 +747,7 @@
 		};
 		B253153C1E51AC1E0029B1EE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D923F0FD0E15D1B26F062A2 /* Pods-IGListKitDemoForObjectCUITests.release.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = 99B27783N7;
 				INFOPLIST_FILE = IGListKitDemoForObjectCUITests/Info.plist;
@@ -516,6 +777,7 @@
 				B25315361E51AC1E0029B1EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B25315371E51AC1E0029B1EE /* Build configuration list for PBXNativeTarget "IGListKitDemoForObjectCTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +786,7 @@
 				B25315391E51AC1E0029B1EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B253153A1E51AC1E0029B1EE /* Build configuration list for PBXNativeTarget "IGListKitDemoForObjectCUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +795,7 @@
 				B253153C1E51AC1E0029B1EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

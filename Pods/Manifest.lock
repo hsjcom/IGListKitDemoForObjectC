@@ -1,0 +1,15 @@
+PODS:
+  - IGListKit (2.0.0)
+  - Masonry (1.0.2)
+
+DEPENDENCIES:
+  - IGListKit (~> 2.0.0)
+  - Masonry
+
+SPEC CHECKSUMS:
+  IGListKit: ee255e4e61865bc3e01ca96b690c5435c2887849
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+
+PODFILE CHECKSUM: c3af1001254c61850e66c0e34adfd00ebf3792af
+
+COCOAPODS: 1.0.1
