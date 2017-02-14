@@ -10,9 +10,10 @@
 
 @interface DemoItem : NSObject<IGListDiffable>
 
+@property (nonatomic, copy) NSString *itemId;
 @property (nonatomic, copy) NSString *title;
 @property (nonatomic, copy) NSString *content;
 
-+ (DemoItem *)initWithTitle:(NSString *)title;
++ (DemoItem *)initWithTitle:(NSString *)title itemId:(NSString *)itemId;
 
 @end

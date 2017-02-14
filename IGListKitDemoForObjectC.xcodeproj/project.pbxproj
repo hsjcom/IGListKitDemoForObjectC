@@ -24,6 +24,7 @@
 		B25315511E52A6100029B1EE /* DemoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B25315501E52A6100029B1EE /* DemoCell.m */; };
 		B25315561E52F5C40029B1EE /* ListSectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = B25315551E52F5C40029B1EE /* ListSectionController.m */; };
 		B25315591E52F63E0029B1EE /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B25315581E52F63E0029B1EE /* ListViewController.m */; };
+		B253155C1E52FBF90029B1EE /* ListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B253155B1E52FBF90029B1EE /* ListCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +81,8 @@
 		B25315551E52F5C40029B1EE /* ListSectionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListSectionController.m; sourceTree = "<group>"; };
 		B25315571E52F63E0029B1EE /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
 		B25315581E52F63E0029B1EE /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
+		B253155A1E52FBF90029B1EE /* ListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListCell.h; sourceTree = "<group>"; };
+		B253155B1E52FBF90029B1EE /* ListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListCell.m; sourceTree = "<group>"; };
 		BA2F9F9C291DB53DF9B345D3 /* Pods-IGListKitDemoForObjectCUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IGListKitDemoForObjectCUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IGListKitDemoForObjectCUITests/Pods-IGListKitDemoForObjectCUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		C5CEB59D8150D21D0C4AA500 /* Pods_IGListKitDemoForObjectCUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IGListKitDemoForObjectCUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0A1670FF3D939EED27F26F2 /* Pods_IGListKitDemoForObjectCTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IGListKitDemoForObjectCTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -215,6 +218,8 @@
 			children = (
 				B253154F1E52A6100029B1EE /* DemoCell.h */,
 				B25315501E52A6100029B1EE /* DemoCell.m */,
+				B253155A1E52FBF90029B1EE /* ListCell.h */,
+				B253155B1E52FBF90029B1EE /* ListCell.m */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -524,6 +529,7 @@
 				B25315121E51AC1E0029B1EE /* ViewController.m in Sources */,
 				B25315471E51BC020029B1EE /* DemoItem.m in Sources */,
 				B25315591E52F63E0029B1EE /* ListViewController.m in Sources */,
+				B253155C1E52FBF90029B1EE /* ListCell.m in Sources */,
 				B253150F1E51AC1E0029B1EE /* AppDelegate.m in Sources */,
 				B25315511E52A6100029B1EE /* DemoCell.m in Sources */,
 				B25315431E51B1AB0029B1EE /* UIView+Extension.m in Sources */,

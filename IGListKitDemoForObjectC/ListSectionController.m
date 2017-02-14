@@ -7,7 +7,7 @@
 //
 
 #import "ListSectionController.h"
-#import "DemoCell.h"
+#import "ListCell.h"
 #import "DemoItem.h"
 
 
@@ -33,7 +33,7 @@
 }
 
 - (UICollectionViewCell *)cellForItemAtIndex:(NSInteger)index {
-    DemoCell *cell = [self.collectionContext dequeueReusableCellOfClass:[DemoCell class]
+    ListCell *cell = [self.collectionContext dequeueReusableCellOfClass:[ListCell class]
                                                    forSectionController:self
                                                                 atIndex:index];
     [cell updateWithObject:self.item];
@@ -46,7 +46,7 @@
 
 - (void)didSelectItemAtIndex:(NSInteger)index {
     DemoItem *dItem = (DemoItem *)self.item;
-    NSLog(@"--didSelectItemAtIndex %ld %@", (long)index, dItem.title);
+    NSLog(@"--didSelectItemAtIndex %ld %@", (long)index, dItem.itemId);
 }
 
 @end

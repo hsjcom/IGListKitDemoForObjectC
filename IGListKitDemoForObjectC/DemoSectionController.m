@@ -30,7 +30,7 @@
 }
 
 - (CGSize)sizeForItemAtIndex:(NSInteger)index {
-    return CGSizeMake(self.collectionContext.containerSize.width, 60);
+    return CGSizeMake(self.collectionContext.containerSize.width, 80);
 }
 
 - (UICollectionViewCell *)cellForItemAtIndex:(NSInteger)index {
@@ -47,9 +47,12 @@
 
 - (void)didSelectItemAtIndex:(NSInteger)index {
     DemoItem *dItem = (DemoItem *)self.item;
-    ListViewController *controller = [[ListViewController alloc] init];
-    [self.viewController.navigationController pushViewController:controller animated:YES];
-    NSLog(@"--didSelectItemAtIndex %ld %@", (long)index, dItem.title);
+    if ([dItem.itemId isEqualToString:@"0"]) {
+        ListViewController *controller = [[ListViewController alloc] init];
+        [self.viewController.navigationController pushViewController:controller animated:YES];
+    }
+    
+    NSLog(@"--didSelectItemAtIndex %ld %@", (long)index, dItem.itemId);
 }
 
 @end

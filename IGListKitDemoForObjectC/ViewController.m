@@ -38,10 +38,11 @@
 
 - (void)data {
     NSMutableArray *temp = [NSMutableArray arrayWithCapacity:0];
-    for (int i = 0; i < 50; i ++) {
-        DemoItem *item = [DemoItem initWithTitle:[NSString stringWithFormat:@"%d", i]];
-        if (i % 3 == 0) {
-            item.content = @"Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mattis consectetur purus sit amet fermentum.Donec sed odio dui. Donec id elit non mi porta gravida at eget metus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed posuere consectetur est at lobortis. Cras justo odio, dapibus ac facilisis in, egestas eget quam.";
+    for (int i = 0; i < 30; i ++) {
+        NSString *itemId = [NSString stringWithFormat:@"%d", i];
+        DemoItem *item = [DemoItem initWithTitle:itemId itemId:itemId];
+        if (i == 0) {
+            item.content = @"List Demo";
         }
         
         [temp addObject:item];
@@ -51,7 +52,6 @@
 
 - (void)setupCollectionView {
     UICollectionViewFlowLayout *layout = [[UICollectionViewFlowLayout alloc] init];
-    layout.estimatedItemSize = CGSizeMake(UI_SCREEN_WIDTH, 50);
     self.collectionView = [[IGListCollectionView alloc] initWithFrame:CGRectZero collectionViewLayout:layout];
     self.collectionView.frame = self.view.bounds;
     [self.view addSubview:self.collectionView];

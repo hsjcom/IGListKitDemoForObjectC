@@ -10,15 +10,16 @@
 
 @implementation DemoItem
 
-+ (DemoItem *)initWithTitle:(NSString *)title {
++ (DemoItem *)initWithTitle:(NSString *)title itemId:(NSString *)itemId {
     DemoItem *item = [[DemoItem alloc] init];
     item.title = title;
+    item.itemId = itemId;
     
     return item;
 }
 
 - (id<NSObject>)diffIdentifier {
-    return self.title;
+    return self.itemId;
 }
 
 - (BOOL)isEqualToDiffableObject:(nullable id<IGListDiffable>)object {
