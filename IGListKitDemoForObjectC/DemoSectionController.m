@@ -11,7 +11,7 @@
 #import "DemoItem.h"
 #import "ListViewController.h"
 #import "MixedDataViewController.h"
-
+#import "ViewController.h"
 
 @interface DemoSectionController ()
 
@@ -48,12 +48,15 @@
 
 - (void)didSelectItemAtIndex:(NSInteger)index {
     DemoItem *dItem = (DemoItem *)self.item;
-    if ([dItem.itemId isEqualToString:@"0"]) {
-        ListViewController *controller = [[ListViewController alloc] init];
-        [self.viewController.navigationController pushViewController:controller animated:YES];
-    }else if ([dItem.itemId isEqualToString:@"1"]) {
-        MixedDataViewController *controller = [[MixedDataViewController alloc] init];
-        [self.viewController.navigationController pushViewController:controller animated:YES];
+    
+    if ([self.viewController isKindOfClass:[ViewController class]]) {
+        if ([dItem.itemId isEqualToString:@"0"]) {
+            ListViewController *controller = [[ListViewController alloc] init];
+            [self.viewController.navigationController pushViewController:controller animated:YES];
+        }else if ([dItem.itemId isEqualToString:@"1"]) {
+            MixedDataViewController *controller = [[MixedDataViewController alloc] init];
+            [self.viewController.navigationController pushViewController:controller animated:YES];
+        }
     }
     
     NSLog(@"--didSelectItemAtIndex %ld %@", (long)index, dItem.itemId);

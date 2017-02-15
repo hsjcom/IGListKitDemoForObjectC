@@ -7,18 +7,6 @@
 //
 
 #import "ListCell.h"
-#import "DemoItem.h"
-
-@interface ListCell ()
-
-@property (nonatomic, strong) UILabel *textLabel;
-@property (nonatomic, strong) UILabel *contentLabel;
-@property (nonatomic, strong) DemoItem *item;
-
-@end
-
-
-
 
 @implementation ListCell
 
@@ -46,7 +34,7 @@
     
     UIView *separator = [UIView new];
     separator.backgroundColor = COLOR_G4;
-    separator.frame = CGRectMake(0, self.height - 1, self.width, 1);
+    separator.frame = CGRectMake(0, self.height - 0.5, self.width, 0.5);
     [self.contentView addSubview:separator];
     
     __weak __typeof__(self) weakSelf = self;

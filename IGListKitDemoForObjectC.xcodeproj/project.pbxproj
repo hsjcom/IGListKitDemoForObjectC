@@ -25,6 +25,11 @@
 		B25315561E52F5C40029B1EE /* ListSectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = B25315551E52F5C40029B1EE /* ListSectionController.m */; };
 		B25315591E52F63E0029B1EE /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B25315581E52F63E0029B1EE /* ListViewController.m */; };
 		B253155C1E52FBF90029B1EE /* ListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B253155B1E52FBF90029B1EE /* ListCell.m */; };
+		B253155F1E53064A0029B1EE /* MixedDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B253155E1E53064A0029B1EE /* MixedDataViewController.m */; };
+		B25315651E53F8030029B1EE /* ExpandableSectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = B25315641E53F8030029B1EE /* ExpandableSectionController.m */; };
+		B25315681E53F9F40029B1EE /* LabelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B25315671E53F9F40029B1EE /* LabelCell.m */; };
+		B253156B1E5401A20029B1EE /* GridSectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = B253156A1E5401A20029B1EE /* GridSectionController.m */; };
+		B253156E1E5403D80029B1EE /* GridCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B253156D1E5403D80029B1EE /* GridCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +88,16 @@
 		B25315581E52F63E0029B1EE /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
 		B253155A1E52FBF90029B1EE /* ListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListCell.h; sourceTree = "<group>"; };
 		B253155B1E52FBF90029B1EE /* ListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListCell.m; sourceTree = "<group>"; };
+		B253155D1E53064A0029B1EE /* MixedDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MixedDataViewController.h; sourceTree = "<group>"; };
+		B253155E1E53064A0029B1EE /* MixedDataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MixedDataViewController.m; sourceTree = "<group>"; };
+		B25315631E53F8030029B1EE /* ExpandableSectionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExpandableSectionController.h; sourceTree = "<group>"; };
+		B25315641E53F8030029B1EE /* ExpandableSectionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExpandableSectionController.m; sourceTree = "<group>"; };
+		B25315661E53F9F40029B1EE /* LabelCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabelCell.h; sourceTree = "<group>"; };
+		B25315671E53F9F40029B1EE /* LabelCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabelCell.m; sourceTree = "<group>"; };
+		B25315691E5401A20029B1EE /* GridSectionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GridSectionController.h; sourceTree = "<group>"; };
+		B253156A1E5401A20029B1EE /* GridSectionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GridSectionController.m; sourceTree = "<group>"; };
+		B253156C1E5403D80029B1EE /* GridCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GridCell.h; sourceTree = "<group>"; };
+		B253156D1E5403D80029B1EE /* GridCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GridCell.m; sourceTree = "<group>"; };
 		BA2F9F9C291DB53DF9B345D3 /* Pods-IGListKitDemoForObjectCUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IGListKitDemoForObjectCUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IGListKitDemoForObjectCUITests/Pods-IGListKitDemoForObjectCUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		C5CEB59D8150D21D0C4AA500 /* Pods_IGListKitDemoForObjectCUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IGListKitDemoForObjectCUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0A1670FF3D939EED27F26F2 /* Pods_IGListKitDemoForObjectCTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IGListKitDemoForObjectCTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -220,6 +235,10 @@
 				B25315501E52A6100029B1EE /* DemoCell.m */,
 				B253155A1E52FBF90029B1EE /* ListCell.h */,
 				B253155B1E52FBF90029B1EE /* ListCell.m */,
+				B25315661E53F9F40029B1EE /* LabelCell.h */,
+				B25315671E53F9F40029B1EE /* LabelCell.m */,
+				B253156C1E5403D80029B1EE /* GridCell.h */,
+				B253156D1E5403D80029B1EE /* GridCell.m */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -231,6 +250,8 @@
 				B25315111E51AC1E0029B1EE /* ViewController.m */,
 				B25315571E52F63E0029B1EE /* ListViewController.h */,
 				B25315581E52F63E0029B1EE /* ListViewController.m */,
+				B253155D1E53064A0029B1EE /* MixedDataViewController.h */,
+				B253155E1E53064A0029B1EE /* MixedDataViewController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -242,6 +263,10 @@
 				B25315491E51C2870029B1EE /* DemoSectionController.m */,
 				B25315541E52F5C40029B1EE /* ListSectionController.h */,
 				B25315551E52F5C40029B1EE /* ListSectionController.m */,
+				B25315631E53F8030029B1EE /* ExpandableSectionController.h */,
+				B25315641E53F8030029B1EE /* ExpandableSectionController.m */,
+				B25315691E5401A20029B1EE /* GridSectionController.h */,
+				B253156A1E5401A20029B1EE /* GridSectionController.m */,
 			);
 			name = SectionController;
 			sourceTree = "<group>";
@@ -530,11 +555,16 @@
 				B25315471E51BC020029B1EE /* DemoItem.m in Sources */,
 				B25315591E52F63E0029B1EE /* ListViewController.m in Sources */,
 				B253155C1E52FBF90029B1EE /* ListCell.m in Sources */,
+				B253155F1E53064A0029B1EE /* MixedDataViewController.m in Sources */,
 				B253150F1E51AC1E0029B1EE /* AppDelegate.m in Sources */,
 				B25315511E52A6100029B1EE /* DemoCell.m in Sources */,
 				B25315431E51B1AB0029B1EE /* UIView+Extension.m in Sources */,
 				B253154A1E51C2870029B1EE /* DemoSectionController.m in Sources */,
+				B25315681E53F9F40029B1EE /* LabelCell.m in Sources */,
+				B25315651E53F8030029B1EE /* ExpandableSectionController.m in Sources */,
+				B253156B1E5401A20029B1EE /* GridSectionController.m in Sources */,
 				B253150C1E51AC1E0029B1EE /* main.m in Sources */,
+				B253156E1E5403D80029B1EE /* GridCell.m in Sources */,
 				B25315561E52F5C40029B1EE /* ListSectionController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
