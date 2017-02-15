@@ -17,3 +17,19 @@
 + (DemoItem *)initWithTitle:(NSString *)title itemId:(NSString *)itemId;
 
 @end
+
+
+
+
+
+
+@interface GridItem : NSObject<IGListDiffable>
+
+@property (nonatomic, copy) NSString *itemId;
+@property (nonatomic, assign) NSInteger itemCount;
+@property (nonatomic, strong) UIColor *color;
+@property (nonatomic, copy) NSString *title;
+
++ (GridItem *)initWithColor:(UIColor *)color itemId:(NSString *)itemId itemCount:(int)itemCount;
+
+@end

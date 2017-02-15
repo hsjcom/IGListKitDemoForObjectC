@@ -27,7 +27,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.title = @"List";
+    self.title = @"List Data Demo";
     
     [self data];
     

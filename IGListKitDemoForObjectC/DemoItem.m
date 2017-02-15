@@ -23,7 +23,32 @@
 }
 
 - (BOOL)isEqualToDiffableObject:(nullable id<IGListDiffable>)object {
-    return YES;
+    return self == object ? true : [self isEqual:object];//YES;
+}
+
+@end
+
+
+
+
+
+@implementation GridItem
+
++ (GridItem *)initWithColor:(UIColor *)color itemId:(NSString *)itemId itemCount:(int)itemCount {
+    GridItem *item = [[GridItem alloc] init];
+    item.color = color;
+    item.itemId = itemId;
+    item.itemCount = itemCount;
+    
+    return item;
+}
+
+- (id<NSObject>)diffIdentifier {
+    return self;
+}
+
+- (BOOL)isEqualToDiffableObject:(nullable id<IGListDiffable>)object {
+    return self == object ? true : [self isEqual:object];
 }
 
 @end

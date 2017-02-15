@@ -17,8 +17,6 @@
 @property (nonatomic, strong) IGListAdapter *listAdapter;
 @property (nonatomic, strong) NSArray <DemoItem *> *items;
 
-@property (nonatomic, assign) BOOL loading;
-
 @end
 
 
@@ -42,7 +40,9 @@
         NSString *itemId = [NSString stringWithFormat:@"%d", i];
         DemoItem *item = [DemoItem initWithTitle:itemId itemId:itemId];
         if (i == 0) {
-            item.content = @"List Demo";
+            item.content = @"List Data Demo";
+        } else if (i == 1) {
+            item.content = @"Mixed Data Demo";
         }
         
         [temp addObject:item];
