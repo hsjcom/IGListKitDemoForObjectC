@@ -12,6 +12,7 @@
 #import "ListViewController.h"
 #import "MixedDataViewController.h"
 #import "ViewController.h"
+#import "GridBoardViewController.h"
 
 @interface DemoSectionController ()
 
@@ -53,8 +54,13 @@
         if ([dItem.itemId isEqualToString:@"0"]) {
             ListViewController *controller = [[ListViewController alloc] init];
             [self.viewController.navigationController pushViewController:controller animated:YES];
-        }else if ([dItem.itemId isEqualToString:@"1"]) {
+        } else if ([dItem.itemId isEqualToString:@"1"]) {
             MixedDataViewController *controller = [[MixedDataViewController alloc] init];
+            [self.viewController.navigationController pushViewController:controller animated:YES];
+        }  else if ([dItem.itemId isEqualToString:@"2"]) {
+//            UIStoryboard *mainStory = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+//            GridBoardViewController *controller = [mainStory instantiateViewControllerWithIdentifier:@"GridBoardViewController"];
+            GridBoardViewController *controller = [[GridBoardViewController alloc] init];
             [self.viewController.navigationController pushViewController:controller animated:YES];
         }
     }

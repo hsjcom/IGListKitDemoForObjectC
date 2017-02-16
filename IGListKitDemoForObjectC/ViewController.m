@@ -43,6 +43,8 @@
             item.content = @"List Data Demo";
         } else if (i == 1) {
             item.content = @"Mixed Data Demo";
+        } else if (i == 2) {
+            item.content = @"Grid Board Demo";
         }
         
         [temp addObject:item];
